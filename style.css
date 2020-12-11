@@ -1,0 +1,120 @@
+.container {
+	width: 510px;
+	/*border: 1px solid black;*/
+	margin: auto;
+	margin-top: 50px;
+	box-sizing: border-box;
+}
+.up-side {
+	width: 500px;
+	height: 150px;
+	border: 1px solid green;
+	margin: auto;
+}
+.output {
+	width: 450px;
+	height: 70px;
+	margin: auto;
+	margin-top: 55px;
+	border: 1px solid blue;
+
+}
+.bottom-side {
+	width: 500px;
+	height: 400px;
+	border: 1px solid green;
+	margin: auto;
+	margin-top: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.list-tombol-kanan {
+	float: right;
+	width: 80px;
+	/*border: 1px solid red;*/
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<tombol kanan*/
+.tombol-kanan {
+	width: 80px;
+	height: 40px;
+	border: 1px solid blue;
+	margin-top: 20px;
+}
+.tombol-kanan:nth-child(1) {
+	width: 80px;
+	height: 40px;
+	border: 1px solid blue;
+	margin-top: -0px;
+}
+.tombol-kanan:nth-child(5) {
+	width: 80px;
+	height: 100px;
+	border: 1px solid blue;
+	margin-top: 20px;
+}
+/*tombol-kanan>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.list-tombol-kiri {
+	float: left;
+	width: 350px;
+	/*border: 1px solid red;*/
+}
+/*TOMBOL KIRI MARGIN LEFT DAN KANAN*/
+.tombol-kiri:nth-child(3n+1) {
+	background-color: salmon;
+	margin-left: -0px;
+}
+.tombol-kiri:nth-child(3n) {
+	background-color: black;
+	margin-left: 49px;
+}
+.tombol-kiri:nth-child(3n+2) {
+	background-color: green;
+	margin-left: 53px;
+}
+/*TOMBOL KIRI MARGIN LEFT DAN KANAN*/
+.tombol-kiri {
+	float: left;
+	width: 80px;
+	height: 40px;
+	border: 1px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
