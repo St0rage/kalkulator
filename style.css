@@ -1,85 +1,89 @@
 .container {
 	width: 510px;
-	/*border: 1px solid black;*/
+	/*border: 1px solid white;*/
 	margin: auto;
 	margin-top: 50px;
 	box-sizing: border-box;
+	/*background-color: #3b3b3b;*/
 }
 .up-side {
 	width: 500px;
 	height: 150px;
-	border: 1px solid green;
+	border: 3px solid black;
 	margin: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #2b2b2b;
 }
 .output {
-	width: 450px;
+	width: 460px;
 	height: 70px;
 	margin: auto;
-	margin-top: 55px;
-	border: 1px solid blue;
-
+	margin-top: 30px;
+	/*border: 1px solid blue;*/
+	background-color: #e3e3e3;
 }
 .bottom-side {
 	width: 500px;
-	height: 400px;
-	border: 1px solid green;
-	margin: auto;
-	margin-top: 10px;
+	border: 3px solid black;
+	margin: 10px auto;
 	padding: 20px;
 	box-sizing: border-box;
+	background-color: #2b2b2b;
 }
-.list-tombol-kanan {
-	float: right;
-	width: 80px;
-	/*border: 1px solid red;*/
-}
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<tombol kanan*/
-.tombol-kanan {
-	width: 80px;
-	height: 40px;
-	border: 1px solid blue;
-	margin-top: 20px;
-}
-.tombol-kanan:nth-child(1) {
-	width: 80px;
-	height: 40px;
-	border: 1px solid blue;
-	margin-top: -0px;
-}
-.tombol-kanan:nth-child(5) {
-	width: 80px;
-	height: 100px;
-	border: 1px solid blue;
-	margin-top: 20px;
-}
-/*tombol-kanan>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.list-tombol-kiri {
+.tampung {
+	width: 97.5px;
+	/*border: 1px solid blue;*/
 	float: left;
-	width: 350px;
-	/*border: 1px solid red;*/
+	margin-left: 10px;
+	margin-right: 5px;
 }
-/*TOMBOL KIRI MARGIN LEFT DAN KANAN*/
-.tombol-kiri:nth-child(3n+1) {
-	background-color: salmon;
-	margin-left: -0px;
-}
-.tombol-kiri:nth-child(3n) {
-	background-color: black;
-	margin-left: 49px;
-}
-.tombol-kiri:nth-child(3n+2) {
-	background-color: green;
-	margin-left: 53px;
-}
-/*TOMBOL KIRI MARGIN LEFT DAN KANAN*/
-.tombol-kiri {
-	float: left;
-	width: 80px;
-	height: 40px;
-	border: 1px solid blue;
+.tombol {
+	width: 97.5px;
+	height: 50px;
+	border: 1px solid white;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: #0d0d0d;
+	color: white;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ini clear float */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
 
 
 
