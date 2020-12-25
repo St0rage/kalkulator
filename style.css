@@ -19,7 +19,7 @@ body {
 	background-color: #2b2b2b;
 	border-radius: 10px;
 }
-.clear {
+.delete {
 	position: absolute;
 	margin-left: 330px;
 	margin-top: -10px;
@@ -35,7 +35,7 @@ body {
 	cursor: pointer;
 	border-radius: 5px;
 }
-.delete {
+.clear {
 	position: absolute;
 	margin-left: 400px;
 	margin-top: -10px;
@@ -148,41 +148,3 @@ body {
 .cf {
     *zoom: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
