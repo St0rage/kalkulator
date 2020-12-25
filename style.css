@@ -1,3 +1,6 @@
+body {
+	background-color: #c0c6cf;
+}
 .container {
 	width: 510px;
 	/*border: 1px solid white;*/
@@ -14,6 +17,36 @@
 	padding: 20px;
 	box-sizing: border-box;
 	background-color: #2b2b2b;
+	border-radius: 10px;
+}
+.delete {
+	position: absolute;
+	margin-left: 400px;
+	margin-top: -10px;
+	border: 1px solid white;
+	height: 25px;
+	width: 50px;
+	text-align: center;
+	line-height: 25px;
+	background-color: #0d0d0d;
+	color: white;
+	font-family: "Segoe UI Black",fantasy;
+	font-size: 13px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.casio {
+	position: absolute;
+	margin-top: -5px;
+	color: white; 
+	font-family: impact,fantasy;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-family: "font-digital"
+}
+@font-face {
+	font-family: "font-digital";
+	src: url('font/digital-7_italic.ttf');
 }
 .output {
 	width: 460px;
@@ -22,6 +55,10 @@
 	margin-top: 30px;
 	/*border: 1px solid blue;*/
 	background-color: #e3e3e3;
+	direction: rtl;
+	font-family: "font-digital";
+	font-size: 80px;
+	line-height: 70px;
 }
 .bottom-side {
 	width: 500px;
@@ -30,6 +67,7 @@
 	padding: 20px;
 	box-sizing: border-box;
 	background-color: #2b2b2b;
+	border-radius: 10px;
 }
 .tampung {
 	width: 97.5px;
@@ -51,6 +89,7 @@
 	cursor: pointer;
 	background-color: #0d0d0d;
 	color: white;
+	border-radius: 5px;
 }
 
 
