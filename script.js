@@ -39,20 +39,20 @@ samadengan.addEventListener('click', function() {
 
 		switch(operator) {
 			case "+":
-				tambah(operator, nilai1, nilai2);
+				tambah(nilai1, nilai2);
 				break;
 			case "-":
-				kurang(operator, nilai1, nilai2);
+				kurang(nilai1, nilai2);
 				break;
-			case "&#247":
-				bagi(operator, nilai1, nilai2);
+			case "÷":
+				bagi(nilai1, nilai2);
 				break;
 			case "x":
-				kali(operator, nilai1, nilai2);
+				kali(nilai1, nilai2);
 		}
 });
 
-function tambah(operator, operand1, operand2) {
+function tambah(operand1, operand2) {
 	let hasil = operand1 + operand2;
 	if(hasil) {
 		outputs.innerHTML = hasil;
@@ -63,8 +63,8 @@ function tambah(operator, operand1, operand2) {
 	return hasil;
 }
 
-function kurang(operator, operand1, operand2) {
-	let hasil = operand1 + operand2;
+function kurang(operand1, operand2) {
+	let hasil = operand1 - operand2;
 	if(hasil) {
 		outputs.innerHTML = hasil;
 	}else {
@@ -74,8 +74,8 @@ function kurang(operator, operand1, operand2) {
 	return hasil;
 }
 
-function bagi(operator, operand1, operand2) {
-	let hasil = operand1 + operand2;
+function bagi(operand1, operand2) {
+	let hasil = operand1 / operand2;
 	if(hasil) {
 		outputs.innerHTML = hasil;
 	}else {
@@ -85,8 +85,8 @@ function bagi(operator, operand1, operand2) {
 	return hasil;
 }
 
-function kali(operator, operand1, operand2) {
-	let hasil = operand1 + operand2;
+function kali(operand1, operand2) {
+	let hasil = operand1 * operand2;
 	if(hasil) {
 		outputs.innerHTML = hasil;
 	}else {
