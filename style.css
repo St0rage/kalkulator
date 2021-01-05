@@ -121,7 +121,7 @@ body {
 .readme {
 	width: 200px;
 	height: 80px;
-	border: 1px solid black;
+	border: 3px solid white;
 	margin: auto;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -129,12 +129,12 @@ body {
 	line-height: 80px;
 	font-size: 25px;
 	font-family: 'Comic Sans MS';
-	background-color: white;
+	background-color: #2b2b2b;
 	cursor: pointer;	
 }
 .readme a {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 .readme:hover {
   text-shadow: 0 0 3px #FF0000;
