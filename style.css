@@ -84,6 +84,7 @@ body {
 	margin-left: 6px;
 	font-family: calibri, sans-serif;
 	font-size: 20px;
+	color: red;
 }
 .bottom-side {
 	width: 500px;
@@ -117,8 +118,27 @@ body {
 	border-radius: 5px;
 	font-family: calibri, sans-serif;
 }
-
-
+.readme {
+	width: 200px;
+	height: 80px;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 25px;
+	font-family: 'Comic Sans MS';
+	background-color: white;
+	cursor: pointer;	
+}
+.readme a {
+	text-decoration: none;
+	color: black;
+}
+.readme:hover {
+  text-shadow: 0 0 3px #FF0000;
+}
 
 
 
